@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9D3EFCCB19E328AB0013A6F5 /* flurry-bunch-universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9D3EFCCC19E328AB0013A6F5 /* Build configuration list for PBXAggregateTarget "flurry-bunch-universal" */;
+			buildPhases = (
+				9D3EFCCF19E328B90013A6F5 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "flurry-bunch-universal";
+			productName = "flurry-bunch-universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		372B75642D274EFCEB9C0943 /* FlurryBunch.mm in Sources */ = {isa = PBXBuildFile; fileRef = 372B7F5F0E7E084B7A7DC9CD /* FlurryBunch.mm */; };
+		9D3EFCD319E3291B0013A6F5 /* FlurryBunch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 372B7CA85C570BA4A32BFFC1 /* FlurryBunch.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D76712F19E33074004155D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D76712A19E33074004155D9 /* native-gateway-common.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 372B7A39A6BEB6BEDF91B827;
+			remoteInfo = "native-gateway-common";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		372B7BAFA965375F05840893 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9D3EFCD319E3291B0013A6F5 /* FlurryBunch.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		372B7CA85C570BA4A32BFFC1 /* FlurryBunch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryBunch.h; sourceTree = "<group>"; };
+		372B7DCC69F00CDB6B22A3A0 /* libFlurryBunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFlurryBunch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		372B7F5F0E7E084B7A7DC9CD /* FlurryBunch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FlurryBunch.mm; sourceTree = "<group>"; };
+		9D76712A19E33074004155D9 /* native-gateway-common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "native-gateway-common.xcodeproj"; path = "../native-gateway-common/native-gateway-common.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372B764D5A0A57D720F02BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372B70E2405C9144FD5745BD /* flurry-bunch */ = {
+			isa = PBXGroup;
+			children = (
+				372B7CA85C570BA4A32BFFC1 /* FlurryBunch.h */,
+				372B7F5F0E7E084B7A7DC9CD /* FlurryBunch.mm */,
+			);
+			path = "flurry-bunch";
+			sourceTree = "<group>";
+		};
+		372B712EFEFDFD41410DBC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372B7DCC69F00CDB6B22A3A0 /* libFlurryBunch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372B75497293723EB0E639B7 = {
+			isa = PBXGroup;
+			children = (
+				9D76712A19E33074004155D9 /* native-gateway-common.xcodeproj */,
+				372B712EFEFDFD41410DBC6C /* Products */,
+				372B70E2405C9144FD5745BD /* flurry-bunch */,
+			);
+			sourceTree = "<group>";
+		};
+		9D76712B19E33074004155D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D76713019E33074004155D9 /* libNativeGatewayCommon.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		372B76670FB18952152D9872 /* flurry-bunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372B7342AF2BE825ED4EEAF4 /* Build configuration list for PBXNativeTarget "flurry-bunch" */;
+			buildPhases = (
+				372B7BFE69F5905656A6BAC0 /* Sources */,
+				372B764D5A0A57D720F02BC6 /* Frameworks */,
+				372B7BAFA965375F05840893 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flurry-bunch";
+			productName = "flurry-bunch";
+			productReference = 372B7DCC69F00CDB6B22A3A0 /* libFlurryBunch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372B7853499F41F8C2ACF7CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = vedidev;
+				TargetAttributes = {
+					9D3EFCCB19E328AB0013A6F5 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 372B796EA000B7C57CC97BCF /* Build configuration list for PBXProject "flurry-bunch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 372B75497293723EB0E639B7;
+			productRefGroup = 372B712EFEFDFD41410DBC6C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9D76712B19E33074004155D9 /* Products */;
+					ProjectRef = 9D76712A19E33074004155D9 /* native-gateway-common.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				372B76670FB18952152D9872 /* flurry-bunch */,
+				9D3EFCCB19E328AB0013A6F5 /* flurry-bunch-universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9D76713019E33074004155D9 /* libNativeGatewayCommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libNativeGatewayCommon.a;
+			remoteRef = 9D76712F19E33074004155D9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D3EFCCF19E328B90013A6F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target flurry-bunch ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target flurry-bunch -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PRODUCT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PRODUCT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PRODUCT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372B7BFE69F5905656A6BAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372B75642D274EFCEB9C0943 /* FlurryBunch.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		372B7531146A466783C923FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../native-gateway-common/native-gateway-common/**",
+					"$(SRCROOT)/Flurry",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = FlurryBunch;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		372B77CF01506037DFB71E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		372B79532F1FEE115827FD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../native-gateway-common/native-gateway-common/**",
+					"$(SRCROOT)/Flurry",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = FlurryBunch;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		372B7A792A6C8DA9D5E7F7E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D3EFCCD19E328AB0013A6F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = FlurryBunch;
+			};
+			name = Debug;
+		};
+		9D3EFCCE19E328AB0013A6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = FlurryBunch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372B7342AF2BE825ED4EEAF4 /* Build configuration list for PBXNativeTarget "flurry-bunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372B7531146A466783C923FD /* Debug */,
+				372B79532F1FEE115827FD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372B796EA000B7C57CC97BCF /* Build configuration list for PBXProject "flurry-bunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372B7A792A6C8DA9D5E7F7E4 /* Debug */,
+				372B77CF01506037DFB71E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D3EFCCC19E328AB0013A6F5 /* Build configuration list for PBXAggregateTarget "flurry-bunch-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3EFCCD19E328AB0013A6F5 /* Debug */,
+				9D3EFCCE19E328AB0013A6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372B7853499F41F8C2ACF7CA /* Project object */;
+}
